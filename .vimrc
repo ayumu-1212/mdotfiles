@@ -114,7 +114,7 @@ nmap <Esc><Esc> :nohlsearch<CR><Esc>
 "End dein Scripts-------------------------
 
 "NERDTree
-autocmd vimenter * NERDTree
+" autocmd VimEnter * execute 'NERDTree'
 map <C-n> :NERDTreeToggle<CR>
 
 " Ctrl-nでNERDTreeを起動
